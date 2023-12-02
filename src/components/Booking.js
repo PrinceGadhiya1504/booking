@@ -10,7 +10,8 @@ const Booking = () => {
     phone: '',
     event: 'wedding',
     comments: '',
-    date: '',
+    date1: '',
+    date2: '',
   })
 
   const [error, setError] = useState({
@@ -56,13 +57,14 @@ function multiDays(){
       phone: val.get('phone'),
       event: val.get('event'),
       comments: val.get('comments'),
-      date: val.get('date'),
+      date1: val.get('date1'),
+      date2: val.get('date2'),
     }
     let a = true;
     // if (actualData.name && actualData.email && actualData.phone && actualData.comments && actualData.date) {
-      if (actualData.date) {
+      if (actualData.date1) {
       data.map((d) => {
-        if(actualData.date !== d.date &&  a===true){
+        if(actualData.date1 !== d.date &&  a===true){
           a=true;
         }
         else{

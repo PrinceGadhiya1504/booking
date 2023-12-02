@@ -1,8 +1,13 @@
 {
   "booking": [
     {
-      "date1": "1",
-      "date2": 0,
+      "name": "",
+      "email": "",
+      "phone": "",
+      "event": "wedding",
+      "comments": "",
+      "date1": "2023-12-09",
+      "date2": "",
       "id": 1
     }
   ]
